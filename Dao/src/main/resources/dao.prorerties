@@ -1,0 +1,6 @@
+book.selectAll = select * from book
+book.selectAllById =  select * from book where book_id = :id
+book.insert = insert into book (book_name, book_price) values (:name, :price)
+book.update = update book set book_name = :name, book_price = :price where book_id =:id
+book.delete = delete from book where book_id = :id
+
